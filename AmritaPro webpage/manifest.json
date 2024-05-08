@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AmritaPro",
+  "version": "1.0",
+  "description": "Displays of all webpages.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "extension-icon.png",
+    "48": "extension-icon.png",
+    "128": "extension-icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
